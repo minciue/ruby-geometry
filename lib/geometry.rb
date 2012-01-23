@@ -1,13 +1,18 @@
+require "rubygems"
+require "bundler/setup"
+
+require "active_support"
 require "active_support/core_ext/module/delegation"
+require "active_support/core_ext/module/aliasing"
 require "active_support/memoizable"
 
-require 'point'
-require 'segment'
-require 'vector'
-require 'polygon'
-require 'line'
-require 'bounding_box'
-require 'algorithms/point_in_polygon'
+require 'geometry/point'
+require 'geometry/segment'
+require 'geometry/vector'
+require 'geometry/polygon'
+require 'geometry/line'
+require 'geometry/bounding_box'
+require 'geometry/algorithms/point_in_polygon'
 
 module Geometry
   include Math
