@@ -1,8 +1,8 @@
 require 'test/unit'
-require 'geometry'
+require 'ruby-geometry'
 
 class ContainsPointTest < Test::Unit::TestCase
-  include Geometry
+  include RubyGeometry
 
   #  ----*----
   def test_point_belongs_to_horizontal_segment

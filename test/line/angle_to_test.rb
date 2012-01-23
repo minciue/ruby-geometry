@@ -1,8 +1,8 @@
 require 'test/unit'
-require 'geometry'
+require 'ruby-geometry'
 
 class AngleToTest < Test::Unit::TestCase
-  include Geometry
+  include RubyGeometry
 
   def test_angle_to_self
     line = Line.new_by_arrays([0, 0], [1, 1])

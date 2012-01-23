@@ -1,8 +1,8 @@
 require 'test/unit'
-require 'geometry'
+require 'ruby-geometry'
 
 class OverlapsTest < Test::Unit::TestCase
-  include Geometry
+  include RubyGeometry
 
   def test_overlaps
     segment1 = Segment.new_by_arrays([0, 0], [2, 0])

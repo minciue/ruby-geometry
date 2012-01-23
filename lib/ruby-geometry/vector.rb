@@ -1,4 +1,4 @@
-module Geometry
+module RubyGeometry
   class Vector < Struct.new(:x, :y)
     def ==(vector)
       x === vector.x && y === vector.y

@@ -1,8 +1,8 @@
 require 'test/unit'
-require 'geometry'
+require 'ruby-geometry'
 
 class BoundingBoxTest < Test::Unit::TestCase
-  include Geometry
+  include RubyGeometry
 
   def test_rectangle
     polygon = Polygon [

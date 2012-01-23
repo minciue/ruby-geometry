@@ -1,8 +1,8 @@
 require 'test/unit'
-require 'geometry'
+require 'ruby-geometry'
 
 class IntersectXTest < Test::Unit::TestCase
-  include Geometry
+  include RubyGeometry
 
   def test_vertical_non_overlapping
     l1 = Line.new_by_arrays([0, 0], [0, 1])

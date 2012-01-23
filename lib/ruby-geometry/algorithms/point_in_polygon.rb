@@ -1,4 +1,4 @@
-module Geometry
+module RubyGeometry
   class PointInPolygon < Struct.new(:point, :polygon)
     extend ActiveSupport::Memoizable
     

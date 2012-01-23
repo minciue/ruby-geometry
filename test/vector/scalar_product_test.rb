@@ -1,8 +1,8 @@
 require 'test/unit'
-require 'geometry'
+require 'ruby-geometry'
 
 class ScalarProductTest < Test::Unit::TestCase
-  include Geometry
+  include RubyGeometry
 
   def test_vectors_are_perpendicular
     assert 0 === Vector.new(1, 1).scalar_product(Vector.new(-1, 1))

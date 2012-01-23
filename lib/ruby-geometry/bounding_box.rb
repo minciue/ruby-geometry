@@ -1,4 +1,4 @@
-module Geometry
+module RubyGeometry
   class BoundingBox < Struct.new(:leftbottom, :righttop)
     def diagonal
       Segment leftbottom, righttop

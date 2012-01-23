@@ -1,8 +1,8 @@
 require 'test/unit'
-require 'geometry'
+require 'ruby-geometry'
 
 class ArithmeticsTest < Test::Unit::TestCase
-  include Geometry
+  include RubyGeometry
 
   def test_summation
     assert_equal Vector.new(4, 6), Vector.new(1, 2) + Vector.new(3, 4)

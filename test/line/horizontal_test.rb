@@ -1,8 +1,8 @@
 require 'test/unit'
-require 'geometry'
+require 'ruby-geometry'
 
 class HorizontalTest < Test::Unit::TestCase
-  include Geometry
+  include RubyGeometry
 
   def test_horizontal
     x, y = 0, 0

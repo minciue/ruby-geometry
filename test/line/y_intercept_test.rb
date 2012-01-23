@@ -1,8 +1,8 @@
 require 'test/unit'
-require 'geometry'
+require 'ruby-geometry'
 
 class YInterceptTest < Test::Unit::TestCase
-  include Geometry
+  include RubyGeometry
 
   def setup
     @inf = 1.0/0.0

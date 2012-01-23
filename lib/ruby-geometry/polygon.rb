@@ -1,4 +1,4 @@
-module Geometry
+module RubyGeometry
   class Polygon < Struct.new(:vertices)
     def edges
       edges = []
@@ -25,5 +25,5 @@ module Geometry
 end
 
 def Polygon(vertices)
-  Geometry::Polygon.new(vertices)
+  RubyGeometry::Polygon.new(vertices)
 end

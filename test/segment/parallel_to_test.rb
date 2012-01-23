@@ -1,8 +1,8 @@
 require 'test/unit'
-require 'geometry'
+require 'ruby-geometry'
 
 class ParallelToTest < Test::Unit::TestCase
-  include Geometry
+  include RubyGeometry
   
   def test_segments_are_parallel
     segment1 = Segment.new_by_arrays([0, 0], [2, 1])

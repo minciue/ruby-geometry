@@ -1,8 +1,8 @@
 require 'test/unit'
-require 'geometry'
+require 'ruby-geometry'
 
 class CollinearWithTest < Test::Unit::TestCase
-  include Geometry
+  include RubyGeometry
 
   def test_vectors_are_collinear
     vector1 = Vector.new(1, 2)

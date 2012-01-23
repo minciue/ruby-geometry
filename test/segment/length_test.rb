@@ -1,8 +1,8 @@
 require 'test/unit'
-require 'geometry'
+require 'ruby-geometry'
 
 class LengthTest < Test::Unit::TestCase
-  include Geometry
+  include RubyGeometry
   
   def test_parallel_to_axis
     assert 1 === Segment.new_by_arrays([1, 1], [2, 1]).length

@@ -1,8 +1,8 @@
 require 'test/unit'
-require 'geometry'
+require 'ruby-geometry'
 
 class ToVectorTest < Test::Unit::TestCase
-  include Geometry
+  include RubyGeometry
 
   def test_regular_case
     segment = Segment.new_by_arrays([1, 1], [3, 2])

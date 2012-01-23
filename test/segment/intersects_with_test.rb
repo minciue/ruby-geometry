@@ -1,8 +1,8 @@
 require 'test/unit'
-require 'geometry'
+require 'ruby-geometry'
 
 class IntersectsTest < Test::Unit::TestCase
-  include Geometry
+  include RubyGeometry
 
   #      |
   #      |

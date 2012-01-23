@@ -1,8 +1,8 @@
 require 'test/unit'
-require 'geometry'
+require 'ruby-geometry'
 
 class DistanceTest < Test::Unit::TestCase
-  include Geometry
+  include RubyGeometry
 
   def test_trivial_cases    
     assert 1 === distance(Point.new(1, 1), Point.new(1, 2))

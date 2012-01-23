@@ -1,8 +1,8 @@
 require 'test/unit'
-require 'geometry'
+require 'ruby-geometry'
 
 class InitializeTest < Test::Unit::TestCase
-  include Geometry
+  include RubyGeometry
   
   def test_initialize_by_numbers
     point = Point.new(1, 2)

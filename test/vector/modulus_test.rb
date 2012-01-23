@@ -1,8 +1,8 @@
 require 'test/unit'
-require 'geometry'
+require 'ruby-geometry'
 
 class ModulusTest < Test::Unit::TestCase
-  include Geometry
+  include RubyGeometry
 
   def test_parallel_to_axis
     assert 1 === Vector.new(1, 0).modulus

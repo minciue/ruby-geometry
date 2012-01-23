@@ -1,8 +1,8 @@
 require 'test/unit'
-require 'geometry'
+require 'ruby-geometry'
 
 class ContainsPointTest < Test::Unit::TestCase
-  include Geometry
+  include RubyGeometry
 
   def test_convex
     rectangle = Polygon.new [

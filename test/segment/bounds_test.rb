@@ -1,11 +1,11 @@
 require 'test/unit'
-require 'geometry'
+require 'ruby-geometry'
 
 class BoundsTest < Test::Unit::TestCase
-  include Geometry
+  include RubyGeometry
 
   def setup
-    @segment = Segment.new(Point.new(1, 1), Point.new(2, 2))
+    @segment = RubyGeometry::Segment.new(Point.new(1, 1), Point.new(2, 2))
   end
 
   def test_leftmost_endpoint    

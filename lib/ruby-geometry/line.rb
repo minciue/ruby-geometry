@@ -1,4 +1,4 @@
-module Geometry
+module RubyGeometry
   class Line < Struct.new(:point1, :point2)
     def self.new_by_arrays(point1_coordinates, point2_coordinates)
       self.new(Point.new_by_array(point1_coordinates), 

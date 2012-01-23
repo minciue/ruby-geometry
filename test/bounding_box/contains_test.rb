@@ -1,8 +1,8 @@
 require 'test/unit'
-require 'geometry'
+require 'ruby-geometry'
 
 class ContainsTest < Test::Unit::TestCase
-  include Geometry
+  include RubyGeometry
 
   def bounding_box
     BoundingBox.new Point(-1, -1), Point(1, 1)

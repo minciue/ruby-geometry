@@ -1,8 +1,8 @@
 require 'test/unit'
-require 'geometry'
+require 'ruby-geometry'
 
 class IntersectsTest < Test::Unit::TestCase
-  include Geometry
+  include RubyGeometry
 
   def test_segments_parralel_but_on_different_lines
     segment1 = Segment.new_by_arrays([0, 1], [2, 1])

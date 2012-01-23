@@ -1,8 +1,8 @@
 require 'test/unit'
-require 'geometry'
+require 'ruby-geometry'
 
 class CrossProductTest < Test::Unit::TestCase
-  include Geometry
+  include RubyGeometry
 
   def test_positive
     assert 1 === Vector.new(1, 0).cross_product(Vector.new(0, 1))

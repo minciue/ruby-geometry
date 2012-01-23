@@ -1,8 +1,8 @@
 require 'test/unit'
-require 'geometry'
+require 'ruby-geometry'
 
 class EqualsTest < Test::Unit::TestCase
-  include Geometry
+  include RubyGeometry
 
   def test_equal    
     assert_equal Vector.new(1, 3), Vector.new(1, 3)

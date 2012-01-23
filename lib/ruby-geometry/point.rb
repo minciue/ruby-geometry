@@ -1,4 +1,4 @@
-module Geometry
+module RubyGeometry
   class Point < Struct.new(:x, :y)
     def self.new_by_array(array)      
       self.new(array[0], array[1])
@@ -11,5 +11,5 @@ module Geometry
 end
 
 def Point(x, y)
-  Geometry::Point.new(x, y)
+  RubyGeometry::Point.new(x, y)
 end
